@@ -12,7 +12,9 @@ const Intro = () => {
         <div className="pb-4">
           <div className="pb-4">
             <p>Bem-vindo</p>
-            <h1>A CASA DO BARBEIRO</h1>
+            <h1 className="font-protest-strike text-xl">
+              A CASA DO BARBEIRO
+            </h1>
             <p>Rua Fictícia, 130</p>
             <p>Centro, Rio de Janeiro</p>
             <p>(21)2222-2222</p>
@@ -24,7 +26,7 @@ const Intro = () => {
           </button>
         </div>
         <div>
-          <div className="pb-4">
+          <div className="pb-6">
             <img
               src={intro1}
               className="rounded-lg"
@@ -41,7 +43,7 @@ const Intro = () => {
             <img className="w-20" src={scissor} alt="Ícone de uma tesoura" />
             <p>Corte de cabelo</p>
           </div>
-          <div className="flex flex-col items-center pb-4">
+          <div className="flex flex-col items-center">
             <img
               className="w-20"
               src={machine}
@@ -49,7 +51,7 @@ const Intro = () => {
             />
             <p>Barba</p>
           </div>
-          <div className="flex flex-col items-center pb-4">
+          <div className="flex flex-col items-center">
             <img className="w-20" src={kid} alt="Ícone de uma criança" />
             <p>Corte de cabelo infantil</p>
           </div>

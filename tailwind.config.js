@@ -12,7 +12,10 @@ export default {
         'manCuttingHair': "url('src/assets/manCuttingHair1000.jpg')",
         '50': '200px'
       },
-      
+      fontFamily: {
+        'cairo': ['"Cairo"', 'sans-serif'],
+        'protest-strike': ['"Protest Strike"', 'sans-serif']
+      }
     },
   },
   plugins: [],
