@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 function App() {
 
   return (
-    <main className="font-cairo">
+    <main className="font-textFont text-darkGray">
       <Header />
       <Intro />
       <Hourse />

@@ -1,10 +1,10 @@
 const Hourse = () => {
   return (
-    <section className="bg-manCuttingHair w-full h-auto bg-center bg-no-repeat">
-      <div>
+    <section className=" flex justify-center bg-manCuttingHair w-full h-auto bg-center bg-no-repeat">
+      <div className="max-w-sm">
         <div className="p-6">
           <div className="bg-darkWhite rounded-lg p-10 mb-4 text-center uppercase">
-            <h2 className="text-mainColor pb-4">Horário de funcionamento</h2>
+            <h2 className="text-mainColor font-titleFont text-2xl pb-4">Horário de funcionamento</h2>
             <ul>
               <li>Domingo - Fechado</li>
               <li>Segunda - 09 às 17</li>

@@ -9,13 +9,13 @@ import logo from "../assets/logoBarber.png";
 
 const Footer = () => {
   return (
-    <footer className="p-6 bg-darkWhite">
-      <div>
-        <div className="flex justify-center">
-          <img className="w-40" src={logo} alt="Logo de a casa do barbeiro" />
+    <footer className="flex justify-center p-6 bg-darkWhite">
+      <div className="max-w-sm">
+        <div className="flex justify-center pb-6">
+          <img className="w-36" src={logo} alt="Logo de a casa do barbeiro" />
         </div>
         <div className="mb-4">
-          <h3>Contato</h3>
+          <h3 className="font-titleFont text-xl">Contato</h3>
           <ul>
             <li className="flex items-center">
               <BsFillTelephoneFill /> (21)2222-2222
@@ -33,23 +33,23 @@ const Footer = () => {
           </ul>
         </div>
         <div className="mb-4">
-          <h3>Institucional</h3>
+          <h3 className="font-titleFont text-xl">Institucional</h3>
           <p>Home</p>
           <p>Nossos serviços</p>
           <p>Galeria</p>
         </div>
         <div>
-          <h3>Nossas redes</h3>
+          <h3 className="font-titleFont text-xl">Nossas redes</h3>
           <div className="flex">
-            <p>
-              <FaSquareFacebook />
-            </p>
-            <p>
-              <FaInstagram />
-            </p>
-            <p>
-              <FaYoutube />
-            </p>
+            <div className="w-2/12 p-2">
+              <FaSquareFacebook size={25} />
+            </div>
+            <div className="w-2/12 p-2">
+              <FaInstagram size={25} />
+            </div>
+            <div className="w-2/12 p-2">
+              <FaYoutube size={25} />
+            </div>
           </div>
         </div>
       </div>

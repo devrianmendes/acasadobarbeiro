@@ -7,12 +7,12 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Intro = () => {
   return (
-    <section className="container p-6">
-      <div>
+    <section className="p-6 flex justify-center">
+      <div className="max-w-sm">
         <div className="pb-4">
           <div className="pb-4">
             <p>Bem-vindo</p>
-            <h1 className="font-protest-strike text-xl">
+            <h1 className="font-titleFont text-2xl">
               A CASA DO BARBEIRO
             </h1>
             <p>Rua Fictícia, 130</p>
@@ -25,7 +25,7 @@ const Intro = () => {
             Agende um horário
           </button>
         </div>
-        <div>
+        <div className="">
           <div className="pb-6">
             <img
               src={intro1}
