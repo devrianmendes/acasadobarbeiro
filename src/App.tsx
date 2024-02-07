@@ -7,9 +7,8 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
-
   return (
-    <main className="font-textFont text-darkGray">
+    <main className="font-textFont text-base text-darkGray">
       <Header />
       <Intro />
       <Hourse />

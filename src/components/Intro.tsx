@@ -3,29 +3,45 @@ import beard from "../assets/beard.png";
 import kid from "../assets/kid.png";
 import machine from "../assets/machine.png";
 import scissor from "../assets/scissor.png";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { BsFillTelephoneFill } from "react-icons/bs";
+
 import { FaWhatsapp } from "react-icons/fa";
 
 const Intro = () => {
   return (
-    <section className="p-6 flex justify-center">
-      <div className="max-w-sm">
-        <div className="pb-4">
-          <div className="pb-4">
-            <p>Bem-vindo</p>
-            <h1 className="font-titleFont text-2xl">
-              A CASA DO BARBEIRO
-            </h1>
-            <p>Rua Fictícia, 130</p>
-            <p>Centro, Rio de Janeiro</p>
-            <p>(21)2222-2222</p>
-            <p>(21)99999-9999</p>
+    <section className="py-14 px-6 flex justify-center">
+      <div className="max-w-sm md:max-w-6xl md:flex">
+        <div className="pb-4 md:w-6/12 flex flex-col justify-center">
+          <div className="pb-4 md:text-xl">
+            <div className="my-3">
+              <p>Bem-vindos </p>
+            </div>
+            <div>
+              <h1 className="font-titleFont my-3 text-2xl md:text-4xl">
+                A CASA DO BARBEIRO
+              </h1>
+            </div>
+            <div className="flex items-center my-3">
+              <FaMapMarkerAlt />
+              <p>Rua Fictícia, 130</p>
+              <p>Centro, Rio de Janeiro</p>
+            </div>
+            <div className="flex items-center my-3">
+              <BsFillTelephoneFill />
+              <p>(21)2222-2222</p>
+            </div>
+            <div className="flex items-center my-3">
+              <FaWhatsapp />
+              <p>(21)99999-9999</p>
+            </div>
           </div>
-          <button className="border-2 rounded-lg py-3 px-5 uppercase flex items-center hover:bg-mainColor hover:border-mainColor hover:text-darkWhite ease-in duration-100">
-            <FaWhatsapp />
+          <button className="font-bold max-w-64 border-2 rounded-lg py-3 px-5 uppercase flex items-center justify-center hover:bg-mainColor hover:border-mainColor hover:text-darkWhite ease-in duration-100">
+            <FaWhatsapp className="mr-2"/>
             Agende um horário
           </button>
         </div>
-        <div className="">
+        <div className="md:w-6/12">
           <div className="pb-6">
             <img
               src={intro1}
@@ -34,7 +50,13 @@ const Intro = () => {
             />
           </div>
         </div>
-        <div className="grid grid-cols-2 text-center">
+      </div>
+    </section>
+  );
+};
+
+{
+  /* <div className="grid grid-cols-2 text-center">
           <div className="flex flex-col items-center pb-4">
             <img className="w-20" src={beard} alt="icon of a beard" />
             <p>Cuidados faciais</p>
@@ -55,10 +77,7 @@ const Intro = () => {
             <img className="w-20" src={kid} alt="Ícone de uma criança" />
             <p>Corte de cabelo infantil</p>
           </div>
-        </div>
-      </div>
-    </section>
-  );
-};
+        </div> */
+}
 
 export default Intro;

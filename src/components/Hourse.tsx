@@ -1,8 +1,8 @@
 const Hourse = () => {
   return (
-    <section className=" flex justify-center bg-manCuttingHair w-full h-auto bg-center bg-no-repeat">
+    <section className="py-14 px-6 flex justify-center bg-manCuttingHair w-full h-auto bg-center bg-no-repeat">
       <div className="max-w-sm">
-        <div className="p-6">
+        <div>
           <div className="bg-darkWhite rounded-lg p-10 mb-4 text-center uppercase">
             <h2 className="text-mainColor font-titleFont text-2xl pb-4">Horário de funcionamento</h2>
             <ul>

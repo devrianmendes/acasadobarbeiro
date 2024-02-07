@@ -3,14 +3,14 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section className="flex justify-center p-6 bg-darkGray text-darkWhite">
-      <div className='max-w-sm'>
-        <div>
-          <div className="-translate-x-6 -translate-y-6">
+    <section className="flex justify-center py-14 px-6 bg-darkGray text-darkWhite">
+      <div className="w-full max-w-sm md:max-w-6xl md:flex md:justify-center">
+        <div className="w-72 sm:w-80 lg:w-6/12">
+          <div className="-translate-x-6 -translate-y-14">
             <img src={contactBarber} alt="Imagem decorativa de um barbeiro" />
           </div>
         </div>
-        <div>
+        <div className="lg:w-2/6">
           <h3 className="font-titleFont text-3xl text-center mb-4">
             Onde nos achar
           </h3>
@@ -25,9 +25,10 @@ const Contact = () => {
           </ul>
           <p className="mb-2">Ou nos mande uma mensagem</p>
           <button className="border-2 rounded-lg py-3 px-5 uppercase flex items-center bg-mainColor border-mainColor text-darkWhite hover:scale-105 duration-100">
-            <FaWhatsapp />
+            <FaWhatsapp className="mr-2" />
             Fale conosco
           </button>
+          <p>!!!!!!!!!!! inserir api do google maps em algum lugar aqui</p>
         </div>
       </div>
     </section>
