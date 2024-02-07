@@ -1,6 +1,6 @@
 const Hourse = () => {
   return (
-    <section className="py-14 px-6 flex justify-center bg-manCuttingHair w-full h-auto bg-center bg-no-repeat">
+    <section className="py-14 px-yyar6 flex justify-center bg-manCuttingHair w-full h-auto bg-center bg-no-repeat">
       <div className="max-w-sm">
         <div>
           <div className="bg-darkWhite rounded-lg p-10 mb-4 text-center uppercase">
