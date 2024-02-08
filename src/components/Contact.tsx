@@ -1,7 +1,6 @@
 import contactBarber from "../assets/contactBarber.jpg";
 import { FaWhatsapp } from "react-icons/fa";
 import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
-import { useEffect } from "react";
 
 const Contact = () => {
   const { isLoaded } = useJsApiLoader({
@@ -13,15 +12,12 @@ const Contact = () => {
   return (
     <section className="flex justify-center py-14 px-6 bg-darkGray text-darkWhite">
       <div className="w-full max-w-sm md:max-w-6xl md:flex md:justify-center">
-        <div className="w-72 md:w-3/6 relative hidden lg:block">
-          <div
-            className="-translate-x-5 -translate-y-5 relative z-10 shadow-[20px_20px_0_0_rgba(69,26,3,1)] mr-2"
-          >
+        <div data-aos="fade-right" className="w-72 md:w-3/6 relative hidden lg:block">
+          <div className="-translate-x-5 -translate-y-5 relative z-10 shadow-[20px_20px_0_0_rgba(69,26,3,1)] mr-2">
             <img src={contactBarber} alt="Imagem decorativa de um barbeiro" />
           </div>
-
         </div>
-        <div className="md:w-3/6 lg:ml-2">
+        <div data-aos="fade-left" className="md:w-3/6 lg:ml-2">
           <h3 className="font-titleFont text-3xl text-center mb-4">
             Onde nos achar
           </h3>

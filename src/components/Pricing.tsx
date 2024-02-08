@@ -2,8 +2,8 @@ const Pricing = () => {
   return (
     <section className="py-14 px-6 bg-darkWhite text-center font-bold">
       <div className="max-w-sm mx-auto md:max-w-6xl">
-        <h2 className="font-titleFont text-3xl">Nossos valores</h2>
-        <div className="md:flex justify-around">
+        <h2 data-aos="zoom-in-left" className="font-titleFont text-3xl">Nossos valores</h2>
+        <div  data-aos="fade-up" className="md:flex justify-around">
           <div className="md:mr-4 md:w-5/12">
             <ul>
               <li className="flex justify-between py-4 my-4 border-b-2 border-mainColor  border-dotted">

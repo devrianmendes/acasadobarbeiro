@@ -1,10 +1,11 @@
 import bg1 from "../assets/bg1.jpg";
 import bg2 from "../assets/bg2.jpg";
-import bg3 from "../assets/bg3.jpg";
-import bg4 from "../assets/bg4.jpg";
 import bg5 from "../assets/bg6.jpg";
 
+// ..
+
 const Hourse = () => {
+
   return (
     <section className="bg-mainColor flex justify-center w-full p-4 relative">
       <div className="max-w-sm sm:max-w-xl lg:max-w-7xl sm:p-10 flex items-center justify-center">
@@ -17,7 +18,7 @@ const Hourse = () => {
         </div>
       </div>
       <div className="max-w-md absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-        <div className="text-darkWhite p-10 mb-10 text-center uppercase border-dotted border-4 rounded-xl">
+        <div data-aos="fade-right" className="text-darkWhite p-10 mb-10 text-center uppercase border-dotted border-4 rounded-xl">
           <h2 className="text-darkWhite font-titleFont text-2xl pb-4">
             Horário de funcionamento
           </h2>
@@ -31,7 +32,7 @@ const Hourse = () => {
             <li>Sábado - 09 às 17</li>
           </ul>
         </div>
-        <div className="hidden lg:block text-darkWhite">
+        <div data-aos="fade-left" className="hidden lg:block text-darkWhite">
           <p className="font-bold mb-4">
             Nosso ambiente foi montado priorizando o conforto e qualidade de
             atendimento:

@@ -2,7 +2,7 @@ import logo from "../assets/logoBarber.png";
 
 const Header = () => {
   return (
-    <header className="py-2 px-4 flex justify-center">
+    <header className="text-base py-2 px-4 flex justify-center">
       <div className="container flex justify-between items-center md:max-w-6xl">
         <div className="flex">
           <div className="w-24">

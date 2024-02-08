@@ -14,7 +14,10 @@ const Intro = () => {
       <div className="flex flex-col">
         <div className="flex justify-center mb-10">
           <div className="max-w-sm md:max-w-6xl md:flex">
-            <div className="pb-4 md:w-6/12 flex flex-col justify-center">
+            <div
+              data-aos="fade-right"
+              className="pb-4 md:w-6/12 flex flex-col justify-center"
+            >
               <div className="pb-4 md:text-xl">
                 <div className="my-3">
                   <p>Bem-vindos </p>
@@ -43,7 +46,7 @@ const Intro = () => {
                 Agende um horário
               </button>
             </div>
-            <div className="md:w-6/12">
+            <div  data-aos="zoom-in-left" className="md:w-6/12">
               <div className="pb-6">
                 <img
                   src={intro1}
@@ -56,15 +59,15 @@ const Intro = () => {
         </div>
         <div className="flex justify-center">
           <div className="max-w-sm md:max-w-6xl grid grid-cols-2 md:grid-cols-4 font-bold text-2xl text-center">
-            <div className="flex flex-col items-center pb-4">
+            <div className="flex flex-col items-center p-4 rounded-md hover:shadow-lg ">
               <img className="w-20" src={beard} alt="icon of a beard" />
               <p>Cuidados faciais</p>
             </div>
-            <div className="flex flex-col items-center pb-4">
+            <div className="flex flex-col items-center p-4 rounded-md hover:shadow-lg ">
               <img className="w-20" src={scissor} alt="Ícone de uma tesoura" />
               <p>Corte de cabelo</p>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center p-4 rounded-md hover:shadow-lg ">
               <img
                 className="w-20"
                 src={machine}
@@ -72,7 +75,7 @@ const Intro = () => {
               />
               <p>Barba</p>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center p-4 rounded-md hover:shadow-lg ">
               <img className="w-20" src={kid} alt="Ícone de uma criança" />
               <p>Corte de cabelo infantil</p>
             </div>
