@@ -8,19 +8,21 @@ const Contact = () => {
     id: "google-map-script",
     googleMapsApiKey: "AIzaSyARAmjt54jpaO_-NCYz21HWEA002ue9S3s",
   });
-  
+
   const shop = "ChIJebY-kJh8mQARjRL5wRPl8EU";
-  const key = "AIzaSyARAmjt54jpaO_-NCYz21HWEA002ue9S3s"
+  const key = "AIzaSyARAmjt54jpaO_-NCYz21HWEA002ue9S3s";
 
   useEffect(() => {
     const getComments = async () => {
-      const comments = await fetch(`https://maps.googleapis.com/maps/api/place/details/json?placeid=[${shop}]&key=[${key}]`);
+      const comments = await fetch(
+        `https://maps.googleapis.com/maps/api/place/details/json?placeid=[${shop}]&key=[${key}]`
+      );
       const obj = comments.json();
-      console.log(obj)
-    }
+      console.log(obj);
+    };
 
     getComments();
-  }, [])
+  }, []);
 
   // const img1Ref = useRef<HTMLDivElement | null>(null);
   // const img2Ref = useRef<HTMLDivElement | null>(null);
@@ -51,7 +53,7 @@ const Contact = () => {
           <div
             // id="img1"
             // ref={img1Ref}
-            className="-translate-x-5 -translate-y-5 relative z-10"
+            className="-translate-x-5 -translate-y-5 relative z-10 shadow-[20px_20px_0_0_rgba(69,26,3,1)] mr-2"
           >
             <img src={contactBarber} alt="Imagem decorativa de um barbeiro" />
           </div>
@@ -62,7 +64,7 @@ const Contact = () => {
             className="bg-darkYellow h- w-full sm:w-80 lg:w-6/12 absolute right-0 top-0 -translate-x-2 -translate-y-2"
           ></div> */}
         </div>
-        <div className="md:w-3/6">
+        <div className="md:w-3/6 lg:ml-2">
           <h3 className="font-titleFont text-3xl text-center mb-4">
             Onde nos achar
           </h3>
