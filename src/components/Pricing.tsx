@@ -1,6 +1,6 @@
 const Pricing = () => {
   return (
-    <section className="py-14 px-6 bg-darkWhite text-center font-bold">
+    <section id="servicos" className="py-14 px-6 bg-darkWhite text-center font-bold">
       <div className="max-w-sm mx-auto md:max-w-6xl">
         <h2 data-aos="zoom-in-left" className="font-titleFont text-3xl">Nossos valores</h2>
         <div  data-aos="fade-up" className="md:flex justify-around">

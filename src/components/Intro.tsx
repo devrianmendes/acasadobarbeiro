@@ -10,7 +10,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Intro = () => {
   return (
-    <section className="py-14 px-6">
+    <section id="intro" className="py-14 px-6">
       <div className="flex flex-col">
         <div className="flex justify-center mb-10">
           <div className="max-w-sm md:max-w-6xl md:flex">
@@ -26,11 +26,11 @@ const Intro = () => {
                   <h1 className="font-titleFont my-3 text-2xl md:text-4xl">
                     A CASA DO BARBEIRO
                   </h1>
+                  <h2>Cada corte, uma obra-prima. Cada barba, uma história.</h2>
                 </div>
                 <div className="flex items-center my-3">
                   <FaMapMarkerAlt />
-                  <p>Rua Fictícia, 130</p>
-                  <p>Centro, Rio de Janeiro</p>
+                  <p>Rua Fictícia, 130, Centro, RJ</p>
                 </div>
                 <div className="flex items-center my-3">
                   <BsFillTelephoneFill />
@@ -41,7 +41,7 @@ const Intro = () => {
                   <p>(21)99999-9999</p>
                 </div>
               </div>
-              <button className="font-bold max-w-64 border-2 rounded-lg py-3 px-5 uppercase flex items-center justify-center hover:bg-mainColor hover:border-mainColor hover:text-darkWhite ease-in duration-100">
+              <button className="font-bold max-w-72 border-2 rounded-lg py-3 px-5 uppercase flex items-center justify-center hover:bg-mainColor hover:border-mainColor hover:text-darkWhite ease-in duration-100">
                 <FaWhatsapp className="mr-2" />
                 Agende um horário
               </button>

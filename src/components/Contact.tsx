@@ -10,9 +10,15 @@ const Contact = () => {
 
   const position = { lat: -22.901622, lng: -43.178978 };
   return (
-    <section className="flex justify-center py-14 px-6 bg-darkGray text-darkWhite">
+    <section
+      id="contato"
+      className="flex justify-center py-14 px-6 bg-darkGray text-darkWhite"
+    >
       <div className="w-full max-w-sm md:max-w-6xl md:flex md:justify-center">
-        <div data-aos="fade-right" className="w-72 md:w-3/6 relative hidden lg:block">
+        <div
+          data-aos="fade-right"
+          className="w-72 md:w-3/6 relative hidden lg:block"
+        >
           <div className="-translate-x-5 -translate-y-5 relative z-10 shadow-[20px_20px_0_0_rgba(69,26,3,1)] mr-2">
             <img src={contactBarber} alt="Imagem decorativa de um barbeiro" />
           </div>

@@ -7,7 +7,7 @@ import bg5 from "../assets/bg6.jpg";
 const Hourse = () => {
 
   return (
-    <section className="bg-mainColor flex justify-center w-full p-4 relative">
+    <section id="horarios" className="bg-mainColor flex justify-center w-full p-4 relative">
       <div className="max-w-sm sm:max-w-xl lg:max-w-7xl sm:p-10 flex items-center justify-center">
         <div className="m-1 flex flex-col sm:items-end">
           <img className="blur-sm mb-1 sm:w-12/12" src={bg1} alt="" />

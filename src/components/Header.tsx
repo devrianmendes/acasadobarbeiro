@@ -15,7 +15,7 @@ const Header = () => {
           <ul className="flex justify-between items-center h-10">
             <li className="w-28 text-center">
               <a
-                href=""
+                href="#intro"
                 className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition"
               >
                 Início
@@ -23,18 +23,26 @@ const Header = () => {
             </li>
             <li className="w-28 text-center">
               <a
-                href=""
+                href="#horarios"
                 className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition"
               >
-                Nosso time
+                Horários
               </a>
             </li>
             <li className="w-28 text-center">
               <a
-                href=""
+                href="#servicos"
                 className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition"
               >
-                Galeria
+                Serviços
+              </a>
+            </li>
+            <li className="w-28 text-center">
+              <a
+                href="#contato"
+                className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition"
+              >
+                Contato
               </a>
             </li>
           </ul>
