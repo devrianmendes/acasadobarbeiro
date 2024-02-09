@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex">
           <div className="w-24">
             <a href="#">
-              <img src={logo} alt="Logo" />
+              <img src={logo} alt="Logo da casa do barbeiro" />
             </a>
           </div>
         </div>
@@ -16,7 +16,7 @@ const Header = () => {
             <li className="w-28 text-center">
               <a
                 href="#intro"
-                className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition"
+                className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition scroll-smooth"
               >
                 Início
               </a>
@@ -24,7 +24,7 @@ const Header = () => {
             <li className="w-28 text-center">
               <a
                 href="#horarios"
-                className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition"
+                className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition scroll-smooth"
               >
                 Horários
               </a>
@@ -32,7 +32,7 @@ const Header = () => {
             <li className="w-28 text-center">
               <a
                 href="#servicos"
-                className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition"
+                className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition scroll-smooth"
               >
                 Serviços
               </a>
@@ -40,7 +40,7 @@ const Header = () => {
             <li className="w-28 text-center">
               <a
                 href="#contato"
-                className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition"
+                className="block w-28 px-4 py-2 rounded hover:bg-mainColor transition scroll-smooth"
               >
                 Contato
               </a>

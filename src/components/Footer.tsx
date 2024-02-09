@@ -40,13 +40,13 @@ const Footer = () => {
         </div>
         <div className="mb-4 md:mx-2">
           <h3 className="font-titleFont text-lg lg:text-2xl">Institucional</h3>
-          <a href="link" className="hover:font-bold">
+          <a href="link" className="hover:text-mainColor">
             <p>Home</p>
           </a>
-          <a href="link" className="hover:font-bold">
+          <a href="link" className="hover:text-mainColor">
             <p>Nossos serviços</p>
           </a>
-          <a href="link" className="hover:font-bold">
+          <a href="link" className="hover:text-mainColor">
             <p>Galeria</p>
           </a>
         </div>
@@ -66,17 +66,26 @@ const Footer = () => {
           <h3 className="font-titleFont text-lg lg:text-2xl">Nossas redes</h3>
           <div className="flex">
             <div className="flex md:w-4/12">
-              <a href="link" className="p-1 rounded  hover:bg-mainColor transition">
+              <a
+                href="link"
+                className="p-1 rounded  hover:bg-mainColor transition"
+              >
                 <FaSquareFacebook size={25} />
               </a>
             </div>
             <div className="flex md:w-4/12">
-              <a href="link" className="p-1 rounded hover:bg-mainColor transition">
+              <a
+                href="link"
+                className="p-1 rounded hover:bg-mainColor transition"
+              >
                 <FaInstagram size={25} />
               </a>
             </div>
             <div className="flex md:w-4/12">
-              <a href="link" className="p-1 rounded  hover:bg-mainColor transition">
+              <a
+                href="link"
+                className="p-1 rounded  hover:bg-mainColor transition"
+              >
                 <FaYoutube size={25} />
               </a>
             </div>

@@ -17,13 +17,13 @@ const Contact = () => {
       <div className="w-full max-w-sm md:max-w-6xl md:flex md:justify-center">
         <div
           data-aos="fade-right"
-          className="w-72 md:w-3/6 relative hidden lg:block"
+          className="w-72 md:w-6/12 relative hidden lg:block"
         >
-          <div className="-translate-x-5 -translate-y-5 relative z-10 shadow-[20px_20px_0_0_rgba(69,26,3,1)] mr-2">
+          <div className="-translate-x-5 -translate-y-5 relative z-10  mr-2">
             <img src={contactBarber} alt="Imagem decorativa de um barbeiro" />
           </div>
         </div>
-        <div data-aos="fade-left" className="md:w-3/6 lg:ml-2">
+        <div data-aos="fade-left" className="md:w-6/12 lg:ml-2">
           <h3 className="font-titleFont text-3xl text-center mb-4">
             Onde nos achar
           </h3>

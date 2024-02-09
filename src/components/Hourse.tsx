@@ -1,6 +1,6 @@
 import bg1 from "../assets/bg1.jpg";
 import bg2 from "../assets/bg2.jpg";
-import bg5 from "../assets/bg6.jpg";
+import bg3 from "../assets/bg3.jpg";
 
 // ..
 
@@ -10,11 +10,11 @@ const Hourse = () => {
     <section id="horarios" className="bg-mainColor flex justify-center w-full p-4 relative">
       <div className="max-w-sm sm:max-w-xl lg:max-w-7xl sm:p-10 flex items-center justify-center">
         <div className="m-1 flex flex-col sm:items-end">
-          <img className="blur-sm mb-1 sm:w-12/12" src={bg1} alt="" />
-          <img className="blur-sm mt-1 sm:w-12/12" src={bg2} alt="" />
+          <img className="blur-sm mb-1 sm:w-12/12" src={bg1} alt="Imagem decorativa de um barbeiro" />
+          <img className="blur-sm mt-1 sm:w-12/12" src={bg2} alt="Imagem decorativa de um barbeiro" />
         </div>
         <div className="hidden mr-1 sm:flex justify-start items-center">
-          <img className="blur-sm m-1 w-12/12" src={bg5} alt="" />
+          <img className="blur-sm m-1 w-12/12" src={bg3} alt="Imagem decorativa de um barbeiro" />
         </div>
       </div>
       <div className="max-w-md absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">

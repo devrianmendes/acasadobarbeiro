@@ -12,10 +12,6 @@ export default {
     },
 
     extend: {
-      backgroundImage: {
-        'manCuttingHair': "url('src/assets/manCuttingHair1000.jpg')",
-        '50': '200px'
-      },
       fontFamily: {
         'textFont': ['Cairo', 'sans-serif'],
         'titleFont': ['Protest Strike', 'sans-serif'],

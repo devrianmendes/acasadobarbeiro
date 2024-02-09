@@ -10,7 +10,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Intro = () => {
   return (
-    <section id="intro" className="py-14 px-6">
+    <section id="intro" className="py-10 px-6">
       <div className="flex flex-col">
         <div className="flex justify-center mb-10">
           <div className="max-w-sm md:max-w-6xl md:flex">
@@ -20,13 +20,16 @@ const Intro = () => {
             >
               <div className="pb-4 md:text-xl">
                 <div className="my-3">
-                  <p>Bem-vindos </p>
+                  <p className="mb-10">Bem-vindos</p>
                 </div>
-                <div>
+                <div className="mb-10">
                   <h1 className="font-titleFont my-3 text-2xl md:text-4xl">
                     A CASA DO BARBEIRO
                   </h1>
-                  <h2>Cada corte, uma obra-prima. Cada barba, uma história.</h2>
+                  <p>
+                    A <h2 className="inline">Barbearia</h2> especializada no
+                    bem-estar masculino
+                  </p>
                 </div>
                 <div className="flex items-center my-3">
                   <FaMapMarkerAlt />
@@ -40,13 +43,13 @@ const Intro = () => {
                   <FaWhatsapp />
                   <p>(21)99999-9999</p>
                 </div>
+                <button className="font-bold max-w-72 border-2 rounded-lg py-3 px-5 uppercase flex items-center justify-center hover:bg-mainColor hover:border-mainColor  hover:text-darkWhite ease-in duration-100">
+                  <FaWhatsapp className="mr-2" />
+                  Agende um horário
+                </button>
               </div>
-              <button className="font-bold max-w-72 border-2 rounded-lg py-3 px-5 uppercase flex items-center justify-center hover:bg-mainColor hover:border-mainColor hover:text-darkWhite ease-in duration-100">
-                <FaWhatsapp className="mr-2" />
-                Agende um horário
-              </button>
             </div>
-            <div  data-aos="zoom-in-left" className="md:w-6/12">
+            <div data-aos="zoom-in-left" className="md:w-6/12">
               <div className="pb-6">
                 <img
                   src={intro1}
@@ -60,7 +63,7 @@ const Intro = () => {
         <div className="flex justify-center">
           <div className="max-w-sm md:max-w-6xl grid grid-cols-2 md:grid-cols-4 font-bold text-2xl text-center">
             <div className="flex flex-col items-center p-4 rounded-md hover:shadow-lg ">
-              <img className="w-20" src={beard} alt="icon of a beard" />
+              <img className="w-20" src={beard} alt="Ícone de uma barba" />
               <p>Cuidados faciais</p>
             </div>
             <div className="flex flex-col items-center p-4 rounded-md hover:shadow-lg ">
