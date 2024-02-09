@@ -1,4 +1,4 @@
-import logo from "../assets/logoBarber.png";
+import logo from "../assets/logo-a-casa-do-barbeiro.png";
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
             </a>
           </div>
         </div>
-        <div className="hidden md:block font-bold">
+        <nav className="hidden md:block font-bold">
           <ul className="flex justify-between items-center h-10">
             <li className="w-28 text-center">
               <a
@@ -46,7 +46,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
         <div className="flex flex-col h-6 justify-between md:hidden">
           <div className="bg-darkGray h-1 w-8 rounded"></div>
           <div className="bg-darkGray h-1 w-8 rounded"></div>

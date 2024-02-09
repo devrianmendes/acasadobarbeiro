@@ -1,4 +1,4 @@
-import contactBarber from "../assets/contactBarber.jpg";
+import contactBarber from "../assets/imagem-contato-a-casa-do-barbeiro.jpg";
 import { FaWhatsapp } from "react-icons/fa";
 import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 

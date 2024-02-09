@@ -1,8 +1,8 @@
-import intro1 from "../assets/intro1.jpg";
-import beard from "../assets/beard.png";
-import kid from "../assets/kid.png";
-import machine from "../assets/machine.png";
-import scissor from "../assets/scissor.png";
+import intro1 from "../assets/imagem-intro-a-casa-do-barbeiro.jpg";
+import beard from "../assets/icone-barba.png";
+import kid from "../assets/icone-crianca.png";
+import machine from "../assets/icone-maquina.png";
+import scissor from "../assets/icone-tesoura.png";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
@@ -23,8 +23,8 @@ const Intro = () => {
                   <p className="mb-10">Bem-vindos</p>
                 </div>
                 <div className="mb-10">
-                  <h1 className="font-titleFont my-3 text-2xl md:text-4xl">
-                    A CASA DO BARBEIRO
+                  <h1 className="uppercase font-titleFont my-3 text-2xl md:text-4xl">
+                    A casa do barbeiro
                   </h1>
                   <p>
                     A <h2 className="inline">Barbearia</h2> especializada no
@@ -33,7 +33,7 @@ const Intro = () => {
                 </div>
                 <div className="flex items-center my-3">
                   <FaMapMarkerAlt />
-                  <p>Rua Fictícia, 130, Centro, RJ</p>
+                  <address>Rua Fictícia, 130, Centro, RJ</address>
                 </div>
                 <div className="flex items-center my-3">
                   <BsFillTelephoneFill />
@@ -50,13 +50,14 @@ const Intro = () => {
               </div>
             </div>
             <div data-aos="zoom-in-left" className="md:w-6/12">
-              <div className="pb-6">
+              <figure className="pb-6">
                 <img
                   src={intro1}
                   className="rounded-lg"
-                  alt="Foto de um homem com cabelo e barba feitos"
+                  alt="Foto de um modelo masculino com cabelo e barba feitos."
                 />
-              </div>
+                <figcaption>"Foto de um modelo masculino com cabelo e barba feitos"</figcaption>
+              </figure>
             </div>
           </div>
         </div>

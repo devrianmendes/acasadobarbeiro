@@ -1,6 +1,6 @@
-import bg1 from "../assets/bg1.jpg";
-import bg2 from "../assets/bg2.jpg";
-import bg3 from "../assets/bg3.jpg";
+import bg1 from "../assets/imagem-de-fundo-1-a-casa-do-barbeiro.jpg";
+import bg2 from "../assets/imagem-de-fundo-2-a-casa-do-barbeiro.jpg";
+import bg3 from "../assets/imagem-de-fundo-3-a-casa-do-barbeiro.jpg";
 
 // ..
 

@@ -5,7 +5,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaYoutube } from "react-icons/fa";
-import logo from "../assets/logoBarber.png";
+import logo from "../assets/logo-a-casa-do-barbeiro.png";
 
 const Footer = () => {
   return (
