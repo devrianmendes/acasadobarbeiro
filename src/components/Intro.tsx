@@ -1,8 +1,8 @@
-import intro1 from "../assets/imagem-intro-a-casa-do-barbeiro.jpg";
-import beard from "../assets/icone-barba.png";
-import kid from "../assets/icone-crianca.png";
-import machine from "../assets/icone-maquina.png";
-import scissor from "../assets/icone-tesoura.png";
+import intro1 from "../assets/imagem-intro-a-casa-do-barbeiro.webp";
+import beard from "../assets/icone-barba.webp";
+import kid from "../assets/icone-crianca.webp";
+import machine from "../assets/icone-maquina.webp";
+import scissor from "../assets/icone-tesoura.webp";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
@@ -56,7 +56,6 @@ const Intro = () => {
                   className="rounded-lg"
                   alt="Foto de um modelo masculino com cabelo e barba feitos."
                 />
-                <figcaption>"Foto de um modelo masculino com cabelo e barba feitos"</figcaption>
               </figure>
             </div>
           </div>

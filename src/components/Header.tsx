@@ -1,4 +1,4 @@
-import logo from "../assets/logo-a-casa-do-barbeiro.png";
+import logo from "../assets/logo-a-casa-do-barbeiro.webp";
 
 const Header = () => {
   return (
@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container flex justify-between items-center md:max-w-6xl">
         <div className="flex">
           <div className="w-24">
-            <a href="#">
+            <a href="https://acasadobarbeiro.devrianmendes.com">
               <img src={logo} alt="Logo da casa do barbeiro" />
             </a>
           </div>

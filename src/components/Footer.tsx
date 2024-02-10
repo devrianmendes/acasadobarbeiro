@@ -5,14 +5,14 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaYoutube } from "react-icons/fa";
-import logo from "../assets/logo-a-casa-do-barbeiro.png";
+import logo from "../assets/logo-a-casa-do-barbeiro.webp";
 
 const Footer = () => {
   return (
     <footer className="flex justify-center p-6 bg-darkWhite">
       <div className="w-full max-w-sm md:flex md:justify-between md:max-w-6xl">
         <div className="flex justify-center pb-6 md:mx-2">
-          <a href="link">
+          <a href="https://acasadobarbeiro.devrianmendes.com">
             <img
               className="w-36 md:w-28"
               src={logo}
@@ -40,14 +40,17 @@ const Footer = () => {
         </div>
         <div className="mb-4 md:mx-2">
           <h3 className="font-titleFont text-lg lg:text-2xl">Institucional</h3>
-          <a href="link" className="hover:text-mainColor">
+          <a href="#intro" className="hover:text-mainColor">
             <p>Home</p>
           </a>
-          <a href="link" className="hover:text-mainColor">
+          <a href="#horarios" className="hover:text-mainColor">
+            <p>Horários</p>
+          </a>
+          <a href="#servicos" className="hover:text-mainColor">
             <p>Nossos serviços</p>
           </a>
-          <a href="link" className="hover:text-mainColor">
-            <p>Galeria</p>
+          <a href="#contato" className="hover:text-mainColor">
+            <p>Contato</p>
           </a>
         </div>
         <div className="hidden lg:block">
@@ -67,7 +70,8 @@ const Footer = () => {
           <div className="flex">
             <div className="flex md:w-4/12">
               <a
-                href="link"
+                href="https://www.facebook.com/"
+                target="_blank"
                 className="p-1 rounded  hover:bg-mainColor transition"
               >
                 <FaSquareFacebook size={25} />
@@ -75,7 +79,8 @@ const Footer = () => {
             </div>
             <div className="flex md:w-4/12">
               <a
-                href="link"
+                href="https://www.instagram.com/"
+                target="_blank"
                 className="p-1 rounded hover:bg-mainColor transition"
               >
                 <FaInstagram size={25} />
@@ -83,7 +88,8 @@ const Footer = () => {
             </div>
             <div className="flex md:w-4/12">
               <a
-                href="link"
+                href="https://www.youtube.com/"
+                target="_blank"
                 className="p-1 rounded  hover:bg-mainColor transition"
               >
                 <FaYoutube size={25} />
